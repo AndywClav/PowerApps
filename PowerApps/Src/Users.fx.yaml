@@ -193,6 +193,6 @@ Users As screen:
         OnSelect: =Refresh('Lista Andrés Clavijo');
         Width: =36
         X: =1169
-        Y: =133
+        Y: =134
         ZIndex: =6
 

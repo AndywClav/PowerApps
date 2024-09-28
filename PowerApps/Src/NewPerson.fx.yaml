@@ -669,3 +669,12 @@ NewPerson As screen:
         Y: =24
         ZIndex: =5
 
+    ButtonCanvas2 As Button:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        OnSelect: =NewForm(NewPerson_Insert)
+        Width: =96
+        X: =314
+        Y: =646
+        ZIndex: =6
+
