@@ -604,6 +604,7 @@ NewPerson As screen:
         navbar_2 As Navbar:
             LayoutMinHeight: =640
             LayoutMinWidth: =640
+            nvMenu: =CustomNavigation
 
     NewPerson_Header As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Light

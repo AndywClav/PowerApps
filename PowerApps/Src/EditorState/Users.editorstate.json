@@ -424,7 +424,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "100",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "nvCurrentMenuID",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -541,7 +541,7 @@
         {
           "Category": "Data",
           "PropertyName": "nvMenu",
-          "RuleProviderType": "System"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",
@@ -556,7 +556,7 @@
         {
           "Category": "Data",
           "PropertyName": "nvCurrentMenuID",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Data",

@@ -6553,7 +6553,7 @@
         {
           "Category": "Data",
           "PropertyName": "nvMenu",
-          "RuleProviderType": "System"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",

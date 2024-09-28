@@ -137,4 +137,6 @@ Users As screen:
         navbar_3 As Navbar:
             LayoutMinHeight: =640
             LayoutMinWidth: =640
+            nvCurrentMenuID: =2
+            nvMenu: =CustomNavigation
 
