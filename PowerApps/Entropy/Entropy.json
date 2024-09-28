@@ -1,9 +1,16 @@
 {
-  "ComponentIndexes": {},
+  "ComponentIndexes": {
+    "navbar": 2
+  },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "Apellido _DataCard1": 47,
     "App": 1,
+    "Button1": 107,
+    "Button3": 101,
+    "Container13": 104,
+    "Container14": 105,
+    "Container2": 99,
     "Crear": 87,
     "DataCardKey1": 43,
     "DataCardKey2": 48,
@@ -24,10 +31,17 @@
     "ErrorMessage4": 60,
     "ErrorMessage5": 65,
     "ErrorMessage6": 70,
+    "Gallery4": 102,
+    "galleryTemplate4": 103,
     "Home": 4,
     "Host": 3,
+    "Image3": 106,
     "Ingreso_Al_Trabajo_DataCard1": 62,
     "Linkedin_DataCard1": 67,
+    "navbar": 97,
+    "navbar-Container": 98,
+    "navbar-Logo_1": 100,
+    "navbar-subContainer": 108,
     "NewPerson": 5,
     "NewPerson_Insert": 41,
     "Nombre_DataCard1": 42,
@@ -41,7 +55,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/28/2024 03:01:05",
+  "HeaderLastSavedDateTimeUTC": "09/28/2024 03:03:28",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c4d280a6-f339-4b5a-8ada-48648695d3df": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/6d1b6f2543ca4c7ea53455d3b472ff8c\""
@@ -54,8 +68,12 @@
     "1140945032": "https://docserverpwaprodwus.blob.core.windows.net/7283c4c7-6207-4cfc-b29c-881e3983fbe6-1/resource/Assets0Images0c9b2e360-9ce0-4710-bec5-7416146b29df.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-09-28T02%3A30%3A08Z&ske=2024-09-29T02%3A45%3A08Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-09-29T02%3A45%3A08Z&sr=b&sp=r&sig=37dygm5NugSVC2IGZqWuG5qS96k%2BCPgTe%2BBDEFZ%2F4%2F8%3D"
   },
   "OldLogoFileName": "na3dvabo.jpg",
-  "OrderComponentMetadata": {},
-  "OrderComponentTemplate": {},
+  "OrderComponentMetadata": {
+    "87a76ae00310482bb4d7975c739ab8d3": 0
+  },
+  "OrderComponentTemplate": {
+    "87a76ae00310482bb4d7975c739ab8d3": 0
+  },
   "OrderDataSource": {
     "ComboBoxSample": 2,
     "CustomGallerySample": 0,
@@ -69,12 +87,20 @@
     "combobox": 3,
     "datepicker": 4,
     "form": 0,
+    "gallery": 8,
+    "groupContainer": 6,
+    "image": 7,
     "label": 1,
     "text": 2
   },
   "OverridablePropertiesEntry": {
     "Apellido _DataCard1": {},
     "App": {},
+    "Button1": {},
+    "Button3": {},
+    "Container13": {},
+    "Container14": {},
+    "Container2": {},
     "Crear": {},
     "DataCardKey1": {},
     "DataCardKey2": {},
@@ -95,10 +121,17 @@
     "ErrorMessage4": {},
     "ErrorMessage5": {},
     "ErrorMessage6": {},
+    "Gallery4": {},
+    "galleryTemplate4": {},
     "Home": {},
     "Host": {},
+    "Image3": {},
     "Ingreso_Al_Trabajo_DataCard1": {},
     "Linkedin_DataCard1": {},
+    "navbar": {},
+    "navbar-Container": {},
+    "navbar-Logo_1": {},
+    "navbar-subContainer": {},
     "NewPerson": {},
     "NewPerson_Insert": {},
     "Nombre_DataCard1": {},
@@ -115,6 +148,11 @@
   "PublishOrderIndices": {
     "Apellido _DataCard1": 0,
     "App": 0,
+    "Button1": 446,
+    "Button3": 440,
+    "Container13": 443,
+    "Container14": 444,
+    "Container2": 438,
     "Crear": 0,
     "DataCardKey1": 0,
     "DataCardKey2": 0,
@@ -135,10 +173,17 @@
     "ErrorMessage4": 0,
     "ErrorMessage5": 0,
     "ErrorMessage6": 0,
+    "Gallery4": 441,
+    "galleryTemplate4": 442,
     "Home": 0,
     "Host": 0,
+    "Image3": 445,
     "Ingreso_Al_Trabajo_DataCard1": 0,
     "Linkedin_DataCard1": 0,
+    "navbar": 0,
+    "navbar-Container": 437,
+    "navbar-Logo_1": 439,
+    "navbar-subContainer": 447,
     "NewPerson": 0,
     "NewPerson_Insert": 0,
     "Nombre_DataCard1": 0,
@@ -151,14 +196,21 @@
     "StarVisible6": 0
   },
   "ResourcesJsonIndices": {
-    "Image-1140945032": 0
+    "Image-1140945032": 0,
+    "Image-SampleImage": 1
   },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
     "AnalysisLoadTime": 0.2001577,
     "ControlCount": {
+      "87a76ae00310482bb4d7975c739ab8d3": 1,
+      "button": 2,
       "form": 1,
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "groupContainer": 5,
+      "image": 2,
       "PowerApps_CoreControls_ComboboxCanvas": 1,
       "PowerApps_CoreControls_DatePickerCanvas": 1,
       "PowerApps_CoreControls_TextCanvas": 19,
