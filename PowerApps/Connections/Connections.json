@@ -1,0 +1,31 @@
+{
+  "c4d280a6-f339-4b5a-8ada-48648695d3df": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://artechnet.sharepoint.com/sites/CapacitacinInternaPowerApps": {
+        "dataSources": {
+          "Lista Andrés Clavijo": {
+            "tableName": "e6761efe-8bc8-4c84-aa65-341190783137"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Lista Andrés Clavijo"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "c4d280a6-f339-4b5a-8ada-48648695d3df"
+  }
+}

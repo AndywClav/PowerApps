@@ -1,0 +1,75 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueGuids": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Home": 4,
+    "Host": 3,
+    "NewPerson": 57
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "09/28/2024 02:20:40",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {
+    "c4d280a6-f339-4b5a-8ada-48648695d3df": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/6d1b6f2543ca4c7ea53455d3b472ff8c\""
+  },
+  "LocalDatabaseReferencesAsEmpty": true,
+  "LocalResourceFileNames": {
+    "1140945032": "c9b2e360-9ce0-4710-bec5-7416146b29df.jpg"
+  },
+  "LocalResourceRootPaths": {
+    "1140945032": "https://cdn.hubblecontent.osi.office.net/m365content/publish/0c20744e-2146-4dde-9b32-320949428098/1140945032.jpg"
+  },
+  "OldLogoFileName": "na3dvabo.jpg",
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 0,
+    "Lista Andrés Clavijo": 1
+  },
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {},
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Home": {},
+    "Host": {},
+    "NewPerson": {}
+  },
+  "PCFDynamicSchemaForIRRetrievalEntry": {},
+  "PCFTemplateEntry": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Home": 0,
+    "Host": 0,
+    "NewPerson": 0
+  },
+  "ResourcesJsonIndices": {
+    "Image-1140945032": 0
+  },
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.267746,
+    "ControlCount": {
+      "form": 1,
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "groupContainer": 5,
+      "Header": 1,
+      "PowerApps_CoreControls_BadgeCanvas": 1,
+      "PowerApps_CoreControls_ButtonCanvas": 1,
+      "PowerApps_CoreControls_ComboboxCanvas": 1,
+      "PowerApps_CoreControls_DatePickerCanvas": 1,
+      "PowerApps_CoreControls_TextCanvas": 25,
+      "PowerApps_CoreControls_TextInputCanvas": 5,
+      "rectangle": 1,
+      "screen": 2,
+      "typedDataCard": 7
+    },
+    "DeserializationLoadTime": 1.6507124
+  },
+  "WasLocalDatabaseReferencesEmpty": true
+}
