@@ -148,7 +148,7 @@ NewPerson As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(0, 0, 0, 1)
-                Default: =Parent.Default
+                Default: =CreacionEmpleado_formattedName
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(166, 166, 166, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -161,6 +161,8 @@ NewPerson As screen:
                 HoverColor: =RGBA(0, 0, 0, 1)
                 HoverFill: =App.Theme.Colors.Lighter70
                 MaxLength: =Parent.MaxLength
+                OnChange: |-
+                    =UpdateContext({ CreacionEmpleado_formattedName: Proper(Upper(DataCardValue1.Text)) })
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
@@ -206,7 +208,7 @@ NewPerson As screen:
                 Y: =DataCardKey1.Y
                 ZIndex: =4
 
-        "'Apellido _DataCard1' As typedDataCard.textualEditCard":
+        Apellido_DataCard1 As typedDataCard.textualEditCard:
             BorderColor: =App.Theme.Colors.Darker40
             BorderStyle: =BorderStyle.Solid
             DataField: ="Apellido"
@@ -241,7 +243,7 @@ NewPerson As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(0, 0, 0, 1)
-                Default: =Parent.Default
+                Default: =CreacionEmpleado_formattedLastName
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(166, 166, 166, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -254,6 +256,8 @@ NewPerson As screen:
                 HoverColor: =RGBA(0, 0, 0, 1)
                 HoverFill: =App.Theme.Colors.Lighter70
                 MaxLength: =Parent.MaxLength
+                OnChange: |-
+                    =UpdateContext({ CreacionEmpleado_formattedLastName: Proper(Upper(DataCardValue2.Text)) })
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
@@ -589,10 +593,10 @@ NewPerson As screen:
                {
                 Perfil: Perfil_DataCard2,
                 Nombre: Nombre_DataCard1,
-                Apellido: 'Apellido _DataCard1',
+                Apellido: 'Apellido_DataCard1',
                 Edad: Edad_DataCard1,
                 Ingreso_Al_Trabajo: Ingreso_Al_Trabajo_DataCard1,
-                Linkedin: Linkedin_DataCard1 
+                Linkedin: Linkedin_DataCard1
                }
             ); 
             NewForm(NewPerson_Insert);

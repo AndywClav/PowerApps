@@ -164,19 +164,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "NewPerson.NewPerson_Insert.'Apellido _DataCard1'.DataCardValue2.AccessibleLabel"
+                  "fullyQualifiedName": "NewPerson.NewPerson_Insert.Apellido_DataCard1.DataCardValue2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "NewPerson.NewPerson_Insert.'Apellido _DataCard1'.DataCardValue2.AccessibleLabel",
+                  "fullyQualifiedName": "NewPerson.NewPerson_Insert.Apellido_DataCard1.DataCardValue2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "NewPerson",
-                "type": "NewPerson.NewPerson_Insert.'Apellido _DataCard1'.DataCardValue2"
+                "type": "NewPerson.NewPerson_Insert.Apellido_DataCard1.DataCardValue2"
               }
             }
           ],
