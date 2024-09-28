@@ -1788,7 +1788,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "40",
+            "InvariantScript": "0",
             "Property": "X",
             "RuleProviderType": "Unknown"
           },
@@ -1958,7 +1958,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638630921801505780",
+    "LastModifiedTimestamp": "638630927068861280",
     "Name": "Header",
     "Rules": [
       {
@@ -2017,7 +2017,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638630921801505780",
+  "LastModifiedTimestamp": "638630927068861280",
   "Name": "2554a52b66044696bc114d0c8815b9bd",
   "OverridableProperties": {},
   "Version": "1.0"

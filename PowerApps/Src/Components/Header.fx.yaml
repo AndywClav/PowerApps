@@ -16,7 +16,6 @@ Header As CanvasComponent:
         PaddingLeft: =5
         PaddingRight: =20
         Width: =1281
-        X: =40
         ZIndex: =1
 
         Container9 As groupContainer.manualLayoutContainer:
