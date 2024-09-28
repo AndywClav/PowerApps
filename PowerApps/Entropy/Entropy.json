@@ -1,9 +1,9 @@
 {
   "ComponentIndexes": {
-    "Header": 4,
+    "Header": 5,
     "Header_1": 3,
     "Header_3": 3,
-    "Navbar": 3,
+    "Navbar": 4,
     "navbar_2": 2,
     "navbar_3": 2
   },
@@ -76,14 +76,15 @@
     "StarVisible7": 84,
     "Subtitle1": 76,
     "Title1": 75,
-    "User": 60,
-    "User_Gallery": 61,
-    "User_Header": 70,
-    "User_Navbar": 72
+    "User": 93,
+    "Users": 60,
+    "Users_Gallery": 61,
+    "Users_Header": 70,
+    "Users_Navbar": 72
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/28/2024 04:03:52",
+  "HeaderLastSavedDateTimeUTC": "09/28/2024 04:13:13",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c4d280a6-f339-4b5a-8ada-48648695d3df": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/6d1b6f2543ca4c7ea53455d3b472ff8c\""
@@ -194,9 +195,10 @@
     "Subtitle1": {},
     "Title1": {},
     "User": {},
-    "User_Gallery": {},
-    "User_Header": {},
-    "User_Navbar": {}
+    "Users": {},
+    "Users_Gallery": {},
+    "Users_Header": {},
+    "Users_Navbar": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
@@ -269,9 +271,10 @@
     "Subtitle1": 0,
     "Title1": 0,
     "User": 0,
-    "User_Gallery": 0,
-    "User_Header": 0,
-    "User_Navbar": 0
+    "Users": 0,
+    "Users_Gallery": 0,
+    "Users_Header": 0,
+    "Users_Navbar": 0
   },
   "ResourcesJsonIndices": {
     "Image-A": 0,

@@ -314,19 +314,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "User.User_Gallery.AccessibleLabel"
+                  "fullyQualifiedName": "Users.Users_Gallery.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "User.User_Gallery.AccessibleLabel",
+                  "fullyQualifiedName": "Users.Users_Gallery.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "User",
-                "type": "User.User_Gallery"
+                "module": "Users",
+                "type": "Users.Users_Gallery"
               }
             }
           ],
@@ -344,19 +344,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "User.User_Gallery.TabIndex"
+                  "fullyQualifiedName": "Users.Users_Gallery.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "User.User_Gallery.TabIndex",
+                  "fullyQualifiedName": "Users.Users_Gallery.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "User",
-                "type": "User.User_Gallery"
+                "module": "Users",
+                "type": "Users.Users_Gallery"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Users.Users_Gallery.NextArrow1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Users.Users_Gallery.NextArrow1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Users",
+                "type": "Users.Users_Gallery.NextArrow1"
               }
             }
           ],
