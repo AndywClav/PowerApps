@@ -163,6 +163,7 @@ NewPerson As screen:
                 MaxLength: =Parent.MaxLength
                 OnChange: |-
                     =UpdateContext({ CreacionEmpleado_formattedName: Proper(Upper(DataCardValue1.Text)) })
+                    // Función para que el Nombre aparezca con la primer letra en mayuscula (Pascal Case)
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
@@ -258,6 +259,7 @@ NewPerson As screen:
                 MaxLength: =Parent.MaxLength
                 OnChange: |-
                     =UpdateContext({ CreacionEmpleado_formattedLastName: Proper(Upper(DataCardValue2.Text)) })
+                    // Función para que el Apellido aparezca con la primer letra en mayuscula (Pascal Case)
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
