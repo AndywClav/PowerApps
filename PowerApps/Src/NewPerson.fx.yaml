@@ -633,7 +633,7 @@ NewPerson As screen:
         FontWeight: =FontWeight.Semibold
         Height: =49
         Size: =20
-        Text: ="Creación de Usuarios"
+        Text: ="Creación de Usuario"
         Width: =296
         X: =118
         Y: =24
