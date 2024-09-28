@@ -5,8 +5,10 @@ NewPerson As screen:
     Form1 As form.PowerApps_CoreControls_Form:
         BorderColor: =App.Theme.Colors.Darker40
         DataSource: ='Lista Andrés Clavijo'
+        Height: =581
         UseFluentV9Cards: =true
-        X: =255
+        Width: =1006
+        X: =181
         Y: =83
         ZIndex: =1
 
@@ -22,7 +24,7 @@ NewPerson As screen:
             MaxLength: =DataSourceInfo([@'Lista Andrés Clavijo'], DataSourceInfo.MaxLength, Apellido)
             Required: =false
             Update: =DataCardValue7.Value
-            Width: =266
+            Width: =335
             X: =2
             Y: =0
             ZIndex: =1
@@ -84,7 +86,7 @@ NewPerson As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
-            Width: =266
+            Width: =335
             X: =2
             Y: =1
             ZIndex: =1
@@ -123,7 +125,7 @@ NewPerson As screen:
             MaxLength: =DataSourceInfo([@'Lista Andrés Clavijo'], DataSourceInfo.MaxLength, Nombre)
             Required: =false
             Update: =DataCardValue1.Value
-            Width: =266
+            Width: =335
             X: =1
             Y: =0
             ZIndex: =2
@@ -185,7 +187,7 @@ NewPerson As screen:
             Height: =70
             Required: =false
             Update: =Value(DataCardValue2.Value)
-            Width: =266
+            Width: =335
             X: =0
             Y: =1
             ZIndex: =2
@@ -245,7 +247,7 @@ NewPerson As screen:
             Height: =70
             Required: =false
             Update: =DataCardValue3.Selected
-            Width: =266
+            Width: =335
             X: =0
             Y: =0
             ZIndex: =2
@@ -306,7 +308,7 @@ NewPerson As screen:
             Height: =70
             Required: =false
             Update: =DataCardValue4.SelectedDate
-            Width: =266
+            Width: =335
             X: =1
             Y: =1
             ZIndex: =2
@@ -368,7 +370,7 @@ NewPerson As screen:
             Height: =70
             Required: =false
             Update: =DataCardValue5.Value
-            Width: =266
+            Width: =335
             X: =0
             Y: =2
             ZIndex: =2
