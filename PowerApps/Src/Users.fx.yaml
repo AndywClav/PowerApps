@@ -6,14 +6,19 @@ Users As screen:
         BorderColor: =App.Theme.Colors.Primary
         DelayItemLoading: =true
         Height: =485
-        Items: ='Lista Andrés Clavijo'
+        Items: |-
+            =Filter(
+                'Lista Andrés Clavijo',
+                StartsWith(Nombre, TextInput1.Text) || 
+                StartsWith(Apellido, TextInput1.Text)
+            )
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
         TemplateSize: =104
         Width: =1004
         X: =223
-        Y: =211
+        Y: =241
         ZIndex: =1
 
         Image1 As image:
