@@ -8,7 +8,7 @@ navbar As CanvasComponent:
     nvCurrentMenuID: =1
     nvHoverFill: =RGBA(0, 0, 0, 0.1)
     nvIconHome: =App.ActiveScreen
-    nvLogo: =
+    nvLogo: =A
     nvMenu: |-
         =Table(
             {
@@ -77,6 +77,7 @@ navbar As CanvasComponent:
                 Image: =navbar.nvLogo
                 PaddingTop: =20
                 Width: =Parent.Width
+                Y: =10
                 ZIndex: =1
 
             Button3 As button:
@@ -103,18 +104,6 @@ navbar As CanvasComponent:
                 Width: =Parent.Width
                 Y: =10
                 ZIndex: =2
-
-        "'navbar-subContainer' As groupContainer.horizontalAutoLayoutContainer":
-            BorderStyle: =BorderStyle.None
-            FillPortions: =0
-            LayoutAlignItems: =LayoutAlignItems.Center
-            LayoutJustifyContent: =LayoutJustifyContent.Center
-            LayoutMinHeight: =20
-            LayoutMinWidth: =40
-            LayoutMode: =LayoutMode.Auto
-            PaddingLeft: =5
-            PaddingRight: =5
-            ZIndex: =4
 
         Gallery4 As gallery.galleryVertical:
             BorderColor: =RGBA(0, 18, 107, 1)
