@@ -16,18 +16,18 @@ Home As screen:
             ="Bienvenidos a Mi 
             Trabajo practico"
         Width: =744
-        X: =213
-        Y: =87
+        X: =261
+        Y: =117
         ZIndex: =1
 
     Image2 As image:
         BorderColor: =App.Theme.Colors.Darker40
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Height: =708
+        Height: =767
         Image: =A
         Width: =502
-        X: =33
+        X: =84
         ZIndex: =2
 
     ButtonCanvas1 As Button:
@@ -41,7 +41,7 @@ Home As screen:
         OnSelect: =Navigate(Users, ScreenTransition.CoverRight)
         Text: ="Usuarios"
         Width: =208
-        X: =816
-        Y: =495
+        X: =900
+        Y: =523
         ZIndex: =3
 
