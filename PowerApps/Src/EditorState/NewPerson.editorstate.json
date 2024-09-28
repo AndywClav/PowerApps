@@ -6543,7 +6543,7 @@
         {
           "Category": "Data",
           "PropertyName": "nvBG",
-          "RuleProviderType": "System"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",
