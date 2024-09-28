@@ -410,7 +410,7 @@ NewPerson As screen:
                 Font: =App.Theme.Font
                 Height: =34
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="Ingreso al Trabajo"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
