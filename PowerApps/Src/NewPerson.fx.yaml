@@ -580,7 +580,19 @@ NewPerson As screen:
         HoverBorderColor: =App.Theme.Colors.Darker10
         HoverColor: =App.Theme.Colors.PrimaryForeground
         HoverFill: =App.Theme.Colors.Darker10
-        OnSelect: =SubmitForm(NewPerson_Insert); NewForm(NewPerson_Insert);
+        OnSelect: |-
+            =Patch(
+                'Lista Andrés Clavijo', Defaults('Lista Andrés Clavijo'),
+               {
+                Perfil: Perfil_DataCard2,
+                Nombre: Nombre_DataCard1,
+                Apellido: 'Apellido _DataCard1',
+                Edad: Edad_DataCard1,
+                Ingreso_Al_Trabajo: Ingreso_Al_Trabajo_DataCard1,
+                Linkedin: Linkedin_DataCard1 
+               }
+            ); 
+            NewForm(NewPerson_Insert);
         PressedBorderColor: =App.Theme.Colors.Darker40
         PressedColor: =Self.Color
         PressedFill: =App.Theme.Colors.Darker40
