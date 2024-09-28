@@ -65,6 +65,7 @@
     "NewPerson": 23,
     "NewPerson_Header": 58,
     "NewPerson_Insert": 24,
+    "NewPerson_Label1": 101,
     "NewPerson_Navbar": 56,
     "NextArrow1": 77,
     "Nombre_DataCard1": 25,
@@ -84,11 +85,12 @@
     "Users": 60,
     "Users_Gallery": 61,
     "Users_Header": 70,
+    "Users_Label1": 100,
     "Users_Navbar": 72
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/28/2024 04:44:14",
+  "HeaderLastSavedDateTimeUTC": "09/28/2024 04:49:35",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c4d280a6-f339-4b5a-8ada-48648695d3df": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/6d1b6f2543ca4c7ea53455d3b472ff8c\""
@@ -190,6 +192,7 @@
     "NewPerson": {},
     "NewPerson_Header": {},
     "NewPerson_Insert": {},
+    "NewPerson_Label1": {},
     "NewPerson_Navbar": {},
     "NextArrow1": {},
     "Nombre_DataCard1": {},
@@ -209,6 +212,7 @@
     "Users": {},
     "Users_Gallery": {},
     "Users_Header": {},
+    "Users_Label1": {},
     "Users_Navbar": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
@@ -299,6 +303,7 @@
     "NewPerson": 0,
     "NewPerson_Header": 0,
     "NewPerson_Insert": 0,
+    "NewPerson_Label1": 4,
     "NewPerson_Navbar": 0,
     "NextArrow1": 0,
     "Nombre_DataCard1": 0,
@@ -318,6 +323,7 @@
     "Users": 0,
     "Users_Gallery": 0,
     "Users_Header": 0,
+    "Users_Label1": 4,
     "Users_Navbar": 0
   },
   "ResourcesJsonIndices": {
@@ -340,7 +346,7 @@
       "groupContainer": 10,
       "icon": 2,
       "image": 4,
-      "label": 23,
+      "label": 26,
       "rectangle": 2,
       "screen": 3,
       "text": 4,

@@ -12,8 +12,8 @@ Users As screen:
         TemplatePadding: =0
         TemplateSize: =104
         Width: =1004
-        X: =210
-        Y: =171
+        X: =204
+        Y: =159
         ZIndex: =1
 
         Image1 As image:
@@ -140,4 +140,19 @@ Users As screen:
             nvCurrentMenuID: =2
             nvIconHome: =Home
             nvMenu: =CustomNavigation
+
+    Users_Label1 As label:
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Color: =RGBA(0, 18, 107, 1)
+        DisabledBorderColor: =RGBA(0, 18, 107, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisplayMode: =DisplayMode.View
+        FontWeight: =FontWeight.Semibold
+        Height: =43
+        Size: =20
+        Text: ="Usuarios"
+        Width: =146
+        X: =118
+        Y: =24
+        ZIndex: =4
 
