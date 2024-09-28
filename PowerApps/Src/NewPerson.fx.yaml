@@ -12,6 +12,104 @@ NewPerson As screen:
         Y: =159
         ZIndex: =1
 
+        Perfil_DataCard2 As typedDataCard.comboBoxEditCard:
+            BorderColor: =App.Theme.Colors.Darker40
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Perfil"
+            Default: =ThisItem.Perfil
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Lista Andrés Clavijo'],DataSourceInfo.DisplayName,Perfil)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue7.Selected
+            Width: =800
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            DataCardKey7 As label:
+                AutoHeight: =true
+                Color: =App.Theme.Colors.Darker30
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =App.Theme.Font
+                Height: =34
+                Size: =13
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue7 As combobox:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                ChevronBackground: =App.Theme.Colors.Primary
+                ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
+                ChevronDisabledFill: =RGBA(244, 244, 244, 1)
+                ChevronFill: =App.Theme.Colors.PrimaryForeground
+                ChevronHoverBackground: =App.Theme.Colors.Darker10
+                ChevronHoverFill: =App.Theme.Colors.PrimaryForeground
+                DefaultSelectedItems: =Parent.Default
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayFields: =["DisplayName","Email","Picture"]
+                DisplayMode: =Parent.DisplayMode
+                Font: =App.Theme.Font
+                HoverColor: =RGBA(0, 0, 0, 1)
+                HoverFill: =App.Theme.Colors.Lighter70
+                InputTextPlaceholder: ="Perfiles"
+                Items: =Choices([@'Lista Andrés Clavijo'].Perfil)
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                PressedColor: =App.Theme.Colors.PrimaryForeground
+                PressedFill: =App.Theme.Colors.Darker30
+                SearchFields: =["DisplayName"]
+                SearchItems: =Choices('Lista Andrés Clavijo'.Perfil,DataCardValue7.SearchText)
+                SelectionColor: =App.Theme.Colors.PrimaryForeground
+                SelectionFill: =App.Theme.Colors.Primary
+                SelectMultiple: =false
+                Size: =13
+                Template: =ListItemTemplate.Person
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey7.Y + DataCardKey7.Height + 5
+                ZIndex: =2
+
+            ErrorMessage7 As label:
+                AutoHeight: =true
+                Color: =RGBA(168, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =App.Theme.Font
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue7.Y + DataCardValue7.Height
+                ZIndex: =3
+
+            StarVisible7 As label:
+                Align: =Align.Center
+                Color: =App.Theme.Colors.Darker30
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =App.Theme.Font
+                Height: =DataCardKey7.Height
+                Size: =13
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey7.Y
+                ZIndex: =4
+
         Nombre_DataCard1 As typedDataCard.textualEditCard:
             BorderColor: =App.Theme.Colors.Darker40
             BorderStyle: =BorderStyle.Solid
@@ -288,103 +386,6 @@ NewPerson As screen:
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey3.Y
-                ZIndex: =4
-
-        Perfil_DataCard1 As typedDataCard.comboBoxEditCard:
-            BorderColor: =App.Theme.Colors.Darker40
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Perfil"
-            Default: =ThisItem.Perfil
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Lista Andrés Clavijo'],DataSourceInfo.DisplayName,Perfil)
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =DataCardValue4.Selected
-            Width: =800
-            X: =0
-            Y: =0
-            ZIndex: =2
-
-            DataCardKey4 As label:
-                AutoHeight: =true
-                Color: =App.Theme.Colors.Darker30
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Font: =App.Theme.Font
-                Height: =34
-                Size: =13
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue4 As combobox:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                ChevronBackground: =App.Theme.Colors.Primary
-                ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
-                ChevronDisabledFill: =RGBA(244, 244, 244, 1)
-                ChevronFill: =App.Theme.Colors.PrimaryForeground
-                ChevronHoverBackground: =App.Theme.Colors.Darker10
-                ChevronHoverFill: =App.Theme.Colors.PrimaryForeground
-                DefaultSelectedItems: =Parent.Default
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayFields: =["DisplayName","Email","Picture"]
-                DisplayMode: =Parent.DisplayMode
-                Font: =App.Theme.Font
-                HoverColor: =RGBA(0, 0, 0, 1)
-                HoverFill: =App.Theme.Colors.Lighter70
-                InputTextPlaceholder: ="Perfiles"
-                Items: =Choices([@'Lista Andrés Clavijo'].Perfil)
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                PressedColor: =App.Theme.Colors.PrimaryForeground
-                PressedFill: =App.Theme.Colors.Darker30
-                SearchFields: =["DisplayName"]
-                SearchItems: =Choices('Lista Andrés Clavijo'.Perfil,DataCardValue4.SearchText)
-                SelectionColor: =App.Theme.Colors.PrimaryForeground
-                SelectionFill: =App.Theme.Colors.Primary
-                SelectMultiple: =false
-                Size: =13
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey4.Y + DataCardKey4.Height + 5
-                ZIndex: =2
-
-            ErrorMessage4 As label:
-                AutoHeight: =true
-                Color: =RGBA(168, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Font: =App.Theme.Font
-                FontWeight: =FontWeight.Semibold
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue4.Y + DataCardValue4.Height
-                ZIndex: =3
-
-            StarVisible4 As label:
-                Align: =Align.Center
-                Color: =App.Theme.Colors.Darker30
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Font: =App.Theme.Font
-                Height: =DataCardKey4.Height
-                Size: =13
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey4.Y
                 ZIndex: =4
 
         Ingreso_Al_Trabajo_DataCard1 As typedDataCard.dateEditCard:
