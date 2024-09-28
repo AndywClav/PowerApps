@@ -47,13 +47,13 @@ Home As screen:
         Y: =523
         ZIndex: =3
 
-    Icon2 As icon.People:
+    Icon3 As icon.Person:
         BorderColor: =App.Theme.Colors.Darker40
         Color: =RGBA(255, 255, 255, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(244, 244, 244, 1)
-        Icon: =Icon.People
-        X: =875
+        Icon: =Icon.Person
+        X: =876
         Y: =530
         ZIndex: =4
 
