@@ -6,10 +6,10 @@ NewPerson As screen:
         BorderColor: =App.Theme.Colors.Darker40
         DataSource: ='Lista Andrés Clavijo'
         DefaultMode: =FormMode.New
-        Height: =602
+        Height: =434
         NumberOfColumns: =2
         X: =306
-        Y: =92
+        Y: =159
         ZIndex: =1
 
         Nombre_DataCard1 As typedDataCard.textualEditCard:
@@ -55,6 +55,7 @@ NewPerson As screen:
                 DisplayMode: =Parent.DisplayMode
                 FocusedBorderThickness: =4
                 Font: =App.Theme.Font
+                HintText: ="Artech"
                 HoverBorderColor: =App.Theme.Colors.Darker40
                 HoverColor: =RGBA(0, 0, 0, 1)
                 HoverFill: =App.Theme.Colors.Lighter70
@@ -147,6 +148,7 @@ NewPerson As screen:
                 DisplayMode: =Parent.DisplayMode
                 FocusedBorderThickness: =4
                 Font: =App.Theme.Font
+                HintText: ="SRA"
                 HoverBorderColor: =App.Theme.Colors.Darker40
                 HoverColor: =RGBA(0, 0, 0, 1)
                 HoverFill: =App.Theme.Colors.Lighter70
@@ -239,6 +241,7 @@ NewPerson As screen:
                 FocusedBorderThickness: =4
                 Font: =App.Theme.Font
                 Format: =TextFormat.Number
+                HintText: ="23"
                 HoverBorderColor: =App.Theme.Colors.Darker40
                 HoverColor: =RGBA(0, 0, 0, 1)
                 HoverFill: =App.Theme.Colors.Lighter70
@@ -514,6 +517,8 @@ NewPerson As screen:
                 DisplayMode: =Parent.DisplayMode
                 FocusedBorderThickness: =4
                 Font: =App.Theme.Font
+                HintText: |-
+                    ="https://www.linkedin.com/company/artech-consulting/mycompany/"
                 HoverBorderColor: =App.Theme.Colors.Darker40
                 HoverColor: =RGBA(0, 0, 0, 1)
                 HoverFill: =App.Theme.Colors.Lighter70
@@ -562,7 +567,7 @@ NewPerson As screen:
                 Y: =DataCardKey6.Y
                 ZIndex: =4
 
-    Button1 As button:
+    Crear As button:
         BorderColor: =App.Theme.Colors.Primary
         Color: =App.Theme.Colors.PrimaryForeground
         DisabledBorderColor: =RGBA(244, 244, 244, 1)
@@ -580,7 +585,7 @@ NewPerson As screen:
         PressedFill: =App.Theme.Colors.Darker40
         Size: =15
         Text: ="Crear"
-        X: =609
-        Y: =570
+        X: =626
+        Y: =582
         ZIndex: =2
 
