@@ -601,7 +601,8 @@ NewPerson As screen:
                     'Ingreso_Al_Trabajo': DataCardValue5.SelectedDate,
                     'Linkedin': DataCardValue6.Text
                 }
-            )
+            );
+            NewForm(NewPerson_Insert);
         PressedBorderColor: =App.Theme.Colors.Darker40
         PressedColor: =Self.Color
         PressedFill: =App.Theme.Colors.Darker40
