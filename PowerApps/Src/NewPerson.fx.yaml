@@ -8,6 +8,9 @@ NewPerson As screen:
         DefaultMode: =FormMode.New
         Height: =434
         NumberOfColumns: =2
+        OnFailure: |-
+            =Notify("Error al enviar el formulario: " & NewPerson_Insert.Error, NotificationType.Error);
+        OnSuccess: =Notify("Formulario enviado con éxito", NotificationType.Success);
         X: =306
         Y: =159
         ZIndex: =1
