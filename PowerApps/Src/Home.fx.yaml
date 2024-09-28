@@ -2,7 +2,7 @@ Home As screen:
     Fill: =RGBA(32, 44, 84, 1)
     LoadingSpinnerColor: =App.Theme.Colors.Primary
 
-    TextCanvas1 As Text:
+    Home_TextCanvas As Text:
         Align: ='TextCanvas.Align'.Center
         DisplayMode: =DisplayMode.Edit
         Font: =App.Theme.Font
@@ -20,7 +20,7 @@ Home As screen:
         Y: =117
         ZIndex: =1
 
-    Image2 As image:
+    Home_Image As image:
         BorderColor: =App.Theme.Colors.Darker40
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -30,7 +30,7 @@ Home As screen:
         X: =84
         ZIndex: =2
 
-    ButtonCanvas1 As Button:
+    Home_Button As Button:
         BorderRadiusBottomLeft: =20
         BorderRadiusBottomRight: =100
         BorderRadiusTopLeft: =50
@@ -47,7 +47,7 @@ Home As screen:
         Y: =523
         ZIndex: =3
 
-    Icon3 As icon.Person:
+    Home_Icon As icon.Person:
         BorderColor: =App.Theme.Colors.Darker40
         Color: =RGBA(255, 255, 255, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)

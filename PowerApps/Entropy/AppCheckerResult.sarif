@@ -404,19 +404,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Home.ButtonCanvas1.AccessibleLabel"
+                  "fullyQualifiedName": "Home.Home_Button.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Home.ButtonCanvas1.AccessibleLabel",
+                  "fullyQualifiedName": "Home.Home_Button.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Home",
-                "type": "Home.ButtonCanvas1"
+                "type": "Home.Home_Button"
               }
             }
           ],
