@@ -16,7 +16,7 @@ Home As screen:
             ="Bienvenidos a Mi 
             Trabajo practico"
         Width: =744
-        X: =174
+        X: =213
         Y: =87
         ZIndex: =1
 
@@ -27,6 +27,21 @@ Home As screen:
         Height: =708
         Image: =A
         Width: =502
-        X: =9
+        X: =33
         ZIndex: =2
+
+    ButtonCanvas1 As Button:
+        BorderRadiusBottomLeft: =20
+        BorderRadiusBottomRight: =100
+        BorderRadiusTopLeft: =50
+        BorderRadiusTopRight: =0
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =78
+        OnSelect: =Navigate(Users, ScreenTransition.CoverRight)
+        Text: ="Usuarios"
+        Width: =208
+        X: =816
+        Y: =495
+        ZIndex: =3
 
