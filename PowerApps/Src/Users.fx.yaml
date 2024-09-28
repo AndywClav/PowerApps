@@ -12,8 +12,8 @@ Users As screen:
         TemplatePadding: =0
         TemplateSize: =104
         Width: =1004
-        X: =204
-        Y: =159
+        X: =223
+        Y: =211
         ZIndex: =1
 
         Image1 As image:
@@ -155,4 +155,26 @@ Users As screen:
         X: =118
         Y: =24
         ZIndex: =4
+
+    TextInput1 As text:
+        Align: =Align.Center
+        BorderColor: =App.Theme.Colors.Darker40
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
+        Default: =
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        FocusedBorderThickness: =4
+        Font: =App.Theme.Font
+        Height: =44
+        HintText: ="Buscador de Usuarios 🔍"
+        HoverBorderColor: =App.Theme.Colors.Darker40
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =App.Theme.Colors.Lighter70
+        Size: =13
+        Width: =444
+        X: =503
+        Y: =129
+        ZIndex: =5
 

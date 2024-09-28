@@ -81,6 +81,7 @@
     "StarVisible6": 54,
     "StarVisible7": 84,
     "Subtitle1": 76,
+    "TextInput1": 103,
     "Title1": 75,
     "User": 93,
     "Users": 60,
@@ -91,7 +92,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/28/2024 05:59:19",
+  "HeaderLastSavedDateTimeUTC": "09/28/2024 06:05:39",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c4d280a6-f339-4b5a-8ada-48648695d3df": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/6d1b6f2543ca4c7ea53455d3b472ff8c\""
@@ -209,6 +210,7 @@
     "StarVisible6": {},
     "StarVisible7": {},
     "Subtitle1": {},
+    "TextInput1": {},
     "Title1": {},
     "User": {},
     "Users": {},
@@ -321,6 +323,7 @@
     "StarVisible6": 0,
     "StarVisible7": 0,
     "Subtitle1": 0,
+    "TextInput1": 0,
     "Title1": 0,
     "User": 0,
     "Users": 0,
