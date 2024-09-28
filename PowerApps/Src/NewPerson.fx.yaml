@@ -591,17 +591,17 @@ NewPerson As screen:
         HoverFill: =App.Theme.Colors.Darker10
         OnSelect: |-
             =Patch(
-                'Lista Andrés Clavijo', Defaults('Lista Andrés Clavijo'),
-               {
-                Perfil: Perfil_DataCard2,
-                Nombre: Nombre_DataCard1,
-                Apellido: 'Apellido_DataCard1',
-                Edad: Edad_DataCard1,
-                Ingreso_Al_Trabajo: Ingreso_Al_Trabajo_DataCard1,
-                Linkedin: Linkedin_DataCard1
-               }
-            ); 
-            NewForm(NewPerson_Insert);
+                'Lista Andrés Clavijo',
+                Defaults('Lista Andrés Clavijo'),
+                {
+                    'Perfil': DataCardValue7.Selected,
+                    'Nombre': DataCardValue1.Text,
+                    'Apellido': DataCardValue2.Text,
+                    'Edad': Value(DataCardValue3.Text),
+                    'Ingreso_Al_Trabajo': DataCardValue5.SelectedDate,
+                    'Linkedin': DataCardValue6.Text
+                }
+            )
         PressedBorderColor: =App.Theme.Colors.Darker40
         PressedColor: =Self.Color
         PressedFill: =App.Theme.Colors.Darker40
