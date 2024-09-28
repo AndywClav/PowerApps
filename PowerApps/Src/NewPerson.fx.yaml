@@ -604,7 +604,12 @@ NewPerson As screen:
                         }
                     )
                 ),
-                NewForm(NewPerson_Insert);
+                Reset(DataCardValue7); 
+                Reset(DataCardValue1); 
+                Reset(DataCardValue2); 
+                Reset(DataCardValue3); 
+                Reset(DataCardValue5); 
+                Reset(DataCardValue6);
                 Notify("Formulario enviado con éxito", NotificationType.Success),
                 Notify("Error al enviar el formulario", NotificationType.Error)
             );
