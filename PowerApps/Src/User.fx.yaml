@@ -8,7 +8,9 @@ User As screen:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(244, 244, 244, 1)
         Icon: =Icon.BackArrow
-        OnSelect: =Back()
+        OnSelect: |-
+            =Refresh('Lista Andrés Clavijo'); 
+            Back();
         X: =36
         Y: =36
         ZIndex: =1
