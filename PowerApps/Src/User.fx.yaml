@@ -21,7 +21,7 @@ User As screen:
             DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =84
             Image: |
-                =LookUp('Lista Andrés Clavijo', ThisItem.Nombre = Title4.Text || ThisItem.'Apellido' = Subtitle4.Text, Perfil.Picture)
+                =LookUp('Lista Andrés Clavijo', ThisItem.ID = ID, Perfil.Picture)
             OnSelect: =Select(Parent)
             RadiusBottomLeft: =8
             RadiusBottomRight: =8
@@ -62,7 +62,7 @@ User As screen:
             PaddingRight: =0
             PaddingTop: =0
             Size: =12
-            Text: =ThisItem.'Apellido '
+            Text: =ThisItem.Apellido
             VerticalAlign: =VerticalAlign.Top
             Width: =Title4.Width
             X: =Title4.X

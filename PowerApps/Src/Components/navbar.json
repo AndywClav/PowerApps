@@ -3098,7 +3098,7 @@
       },
       "nvIconHome"
     ],
-    "LastModifiedTimestamp": "638630907424674085",
+    "LastModifiedTimestamp": "638630921801401420",
     "Name": "Navbar",
     "Rules": [
       {
@@ -3183,31 +3183,31 @@
         "Category": "Design",
         "InvariantScript": "768",
         "Property": "Height",
-        "RuleProviderType": "System"
+        "RuleProviderType": "Unknown"
       },
       {
         "Category": "Design",
         "InvariantScript": "85",
         "Property": "Width",
-        "RuleProviderType": "System"
+        "RuleProviderType": "Unknown"
       },
       {
         "Category": "Design",
         "InvariantScript": "0",
         "Property": "X",
-        "RuleProviderType": "System"
+        "RuleProviderType": "Unknown"
       },
       {
         "Category": "Design",
         "InvariantScript": "0",
         "Property": "Y",
-        "RuleProviderType": "System"
+        "RuleProviderType": "Unknown"
       },
       {
         "Category": "Design",
         "InvariantScript": "1",
         "Property": "ZIndex",
-        "RuleProviderType": "System"
+        "RuleProviderType": "Unknown"
       }
     ]
   },
@@ -3338,7 +3338,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638630907424674085",
+  "LastModifiedTimestamp": "638630921801401420",
   "Name": "87a76ae00310482bb4d7975c739ab8d3",
   "OverridableProperties": {},
   "TemplateOriginalName": "5584e065cbe44001a2eac557bd79d080",

@@ -109,12 +109,12 @@ NewPerson As screen:
             BorderColor: =App.Theme.Colors.Darker40
             BorderStyle: =BorderStyle.Solid
             DataField: ="Apellido"
-            Default: =ThisItem.'Apellido '
+            Default: =ThisItem.Apellido
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Lista Andrés Clavijo'],DataSourceInfo.DisplayName,'Apellido ')
+            DisplayName: =DataSourceInfo([@'Lista Andrés Clavijo'],DataSourceInfo.DisplayName,Apellido)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Lista Andrés Clavijo'], DataSourceInfo.MaxLength, 'Apellido ')
+            MaxLength: =DataSourceInfo([@'Lista Andrés Clavijo'], DataSourceInfo.MaxLength, Apellido)
             Required: =false
             Update: =DataCardValue2.Text
             Width: =400
