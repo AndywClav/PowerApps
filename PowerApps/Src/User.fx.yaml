@@ -1,4 +1,15 @@
 User As screen:
-    Fill: =Color.White
+    Fill: =RGBA(32, 44, 84, 1)
     LoadingSpinnerColor: =App.Theme.Colors.Primary
+
+    Icon4 As icon.BackArrow:
+        BorderColor: =App.Theme.Colors.Darker40
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =36
+        Y: =36
+        ZIndex: =1
 
