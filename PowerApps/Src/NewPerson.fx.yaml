@@ -8,9 +8,8 @@ NewPerson As screen:
         DefaultMode: =FormMode.New
         Height: =434
         NumberOfColumns: =2
-        OnFailure: |-
-            =Notify("Error al enviar el formulario: " & NewPerson_Insert.Error, NotificationType.Error);
-        OnSuccess: =Notify("Formulario enviado con éxito", NotificationType.Success);
+        OnFailure: =
+        OnSuccess: =
         X: =306
         Y: =159
         ZIndex: =1
@@ -589,20 +588,26 @@ NewPerson As screen:
         HoverBorderColor: =App.Theme.Colors.Darker10
         HoverColor: =App.Theme.Colors.PrimaryForeground
         HoverFill: =App.Theme.Colors.Darker10
-        OnSelect: |-
-            =Patch(
-                'Lista Andrés Clavijo',
-                Defaults('Lista Andrés Clavijo'),
-                {
-                    'Perfil': DataCardValue7.Selected,
-                    'Nombre': DataCardValue1.Text,
-                    'Apellido': DataCardValue2.Text,
-                    'Edad': Value(DataCardValue3.Text),
-                    'Ingreso_Al_Trabajo': DataCardValue5.SelectedDate,
-                    'Linkedin': DataCardValue6.Text
-                }
+        OnSelect: |
+            =If(
+                !IsBlank(
+                    Patch(
+                        'Lista Andrés Clavijo',
+                        Defaults('Lista Andrés Clavijo'),
+                        {
+                            Perfil: DataCardValue7.Selected,
+                            Nombre: DataCardValue1.Text,
+                            Apellido: DataCardValue2.Text,
+                            Edad: Value(DataCardValue3.Text),
+                            Ingreso_Al_Trabajo: DataCardValue5.SelectedDate,
+                            Linkedin: DataCardValue6.Text
+                        }
+                    )
+                ),
+                NewForm(NewPerson_Insert);
+                Notify("Formulario enviado con éxito", NotificationType.Success),
+                Notify("Error al enviar el formulario", NotificationType.Error)
             );
-            NewForm(NewPerson_Insert);
         PressedBorderColor: =App.Theme.Colors.Darker40
         PressedColor: =Self.Color
         PressedFill: =App.Theme.Colors.Darker40

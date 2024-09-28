@@ -7047,7 +7047,7 @@
         {
           "Category": "Behavior",
           "PropertyName": "OnFailure",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Behavior",
