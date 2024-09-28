@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "navbar.'navbar-Container'.Container2.'navbar-Logo_1'.AccessibleLabel"
+                  "fullyQualifiedName": "Navbar.'navbar-Container'.Container2.'navbar-Logo_1'.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "navbar.'navbar-Container'.Container2.'navbar-Logo_1'.AccessibleLabel",
+                  "fullyQualifiedName": "Navbar.'navbar-Container'.Container2.'navbar-Logo_1'.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "navbar",
-                "type": "navbar.'navbar-Container'.Container2.'navbar-Logo_1'"
+                "module": "Navbar",
+                "type": "Navbar.'navbar-Container'.Container2.'navbar-Logo_1'"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "navbar.'navbar-Container'.Container2.'navbar-Logo_1'.TabIndex"
+                  "fullyQualifiedName": "Navbar.'navbar-Container'.Container2.'navbar-Logo_1'.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "navbar.'navbar-Container'.Container2.'navbar-Logo_1'.TabIndex",
+                  "fullyQualifiedName": "Navbar.'navbar-Container'.Container2.'navbar-Logo_1'.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "navbar",
-                "type": "navbar.'navbar-Container'.Container2.'navbar-Logo_1'"
+                "module": "Navbar",
+                "type": "Navbar.'navbar-Container'.Container2.'navbar-Logo_1'"
               }
             }
           ],
@@ -74,19 +74,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "navbar.'navbar-Container'.Gallery4.AccessibleLabel"
+                  "fullyQualifiedName": "Navbar.'navbar-Container'.Gallery4.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "navbar.'navbar-Container'.Gallery4.AccessibleLabel",
+                  "fullyQualifiedName": "Navbar.'navbar-Container'.Gallery4.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "navbar",
-                "type": "navbar.'navbar-Container'.Gallery4"
+                "module": "Navbar",
+                "type": "Navbar.'navbar-Container'.Gallery4"
               }
             }
           ],
@@ -104,19 +104,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "navbar.'navbar-Container'.Gallery4.TabIndex"
+                  "fullyQualifiedName": "Navbar.'navbar-Container'.Gallery4.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "navbar.'navbar-Container'.Gallery4.TabIndex",
+                  "fullyQualifiedName": "Navbar.'navbar-Container'.Gallery4.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "navbar",
-                "type": "navbar.'navbar-Container'.Gallery4"
+                "module": "Navbar",
+                "type": "Navbar.'navbar-Container'.Gallery4"
               }
             }
           ],

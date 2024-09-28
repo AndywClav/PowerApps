@@ -2,7 +2,7 @@ Home As screen:
     Fill: =Color.White
     LoadingSpinnerColor: =App.Theme.Colors.Primary
 
-    Container1 As groupContainer.horizontalAutoLayoutContainer:
+    Home_Navbar As groupContainer.horizontalAutoLayoutContainer:
         DropShadow: =DropShadow.Light
         Height: =768
         LayoutMode: =LayoutMode.Auto
@@ -13,7 +13,8 @@ Home As screen:
         Width: =85
         ZIndex: =1
 
-        navbar_1 As navbar:
+        navbar_1 As Navbar:
             LayoutMinHeight: =640
             LayoutMinWidth: =640
+            nvCurrentMenuID: =0
 

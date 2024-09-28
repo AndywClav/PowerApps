@@ -1,4 +1,4 @@
-navbar As CanvasComponent:
+Navbar As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =768
     nvBaseIconColor: =RGBA(135, 131, 176, 1)
@@ -50,7 +50,7 @@ navbar As CanvasComponent:
     ZIndex: =1
 
     "'navbar-Container' As groupContainer.verticalAutoLayoutContainer":
-        Fill: =navbar.nvBG
+        Fill: =Navbar.nvBG
         Height: =Parent.Height
         LayoutDirection: =LayoutDirection.Vertical
         LayoutGap: =150
@@ -74,7 +74,7 @@ navbar As CanvasComponent:
                 DisabledBorderColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
                 Height: =Parent.Height
-                Image: =navbar.nvLogo
+                Image: =Navbar.nvLogo
                 PaddingTop: =20
                 Width: =Parent.Width
                 Y: =10
@@ -91,7 +91,7 @@ navbar As CanvasComponent:
                 HoverBorderColor: =
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =
-                OnSelect: =Navigate(navbar.nvIconHome)
+                OnSelect: =Navigate(Navbar.nvIconHome)
                 PressedBorderColor: =RGBA(0, 0, 0, 0)
                 PressedColor: =
                 PressedFill: =
@@ -109,7 +109,7 @@ navbar As CanvasComponent:
             BorderColor: =RGBA(0, 18, 107, 1)
             FillPortions: =0
             Height: =Self.AllItemsCount * (Self.TemplateHeight + Self.TemplatePadding)
-            Items: =navbar.nvMenu
+            Items: =Navbar.nvMenu
             Layout: =Layout.Vertical
             LayoutMinHeight: =287
             LayoutMinWidth: =0
@@ -127,8 +127,8 @@ navbar As CanvasComponent:
                 Container14 As groupContainer.manualLayoutContainer:
                     Fill: |-
                         =If(
-                            navbar.nvCurrentMenuID = ThisItem.menuID,
-                            navbar.nvSelectedIconBG,
+                            Navbar.nvCurrentMenuID = ThisItem.menuID,
+                            Navbar.nvSelectedIconBG,
                             RGBA(0, 0, 0, 0)
                         )
                     Height: =Parent.Height * 70%
@@ -154,9 +154,9 @@ navbar As CanvasComponent:
                                     ThisItem.menuIcon,
                                     "currentColor",
                                     If(
-                                        navbar.nvCurrentMenuID = ThisItem.menuID,
-                                        navbar.nvSelectedIconColor_Text,
-                                        navbar.nvBaseIconColor_Text
+                                        Navbar.nvCurrentMenuID = ThisItem.menuID,
+                                        Navbar.nvSelectedIconColor_Text,
+                                        Navbar.nvBaseIconColor_Text
                                     )
                                 )
                             )
@@ -172,9 +172,9 @@ navbar As CanvasComponent:
                         FontWeight: =FontWeight.Semibold
                         Height: =Parent.Height
                         HoverColor: =RGBA(255, 255, 255, 1)
-                        HoverFill: =navbar.nvHoverFill
+                        HoverFill: =Navbar.nvHoverFill
                         OnSelect: =Navigate(ThisItem.pageNavigation); FormMode.New;
-                        PressedFill: =navbar.nvPressedFill
+                        PressedFill: =Navbar.nvPressedFill
                         Size: =15
                         Text: =
                         Visible: =ThisItem.visibleIcon

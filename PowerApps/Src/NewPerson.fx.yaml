@@ -589,3 +589,35 @@ NewPerson As screen:
         Y: =582
         ZIndex: =2
 
+    NewPerson_Navbar As groupContainer.horizontalAutoLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Height: =768
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =85
+        ZIndex: =3
+
+        navbar_2 As Navbar:
+            LayoutMinHeight: =640
+            LayoutMinWidth: =640
+
+    NewPerson_Header As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Height: =91
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =1281
+        X: =86
+        ZIndex: =4
+
+        Header_1 As Header:
+            LayoutMinHeight: =640
+            LayoutMinWidth: =640
+
