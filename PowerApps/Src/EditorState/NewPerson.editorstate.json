@@ -6481,7 +6481,14 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "nvIconHome"
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "App.ActiveScreen",
+          "InvariantPropertyName": "nvIconHome",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        }
       ],
       "DynamicProperties": [
         {
@@ -6598,7 +6605,7 @@
         {
           "Category": "Data",
           "PropertyName": "nvIconHome",
-          "RuleProviderType": "System"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Design",

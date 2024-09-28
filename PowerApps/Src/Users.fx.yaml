@@ -138,5 +138,6 @@ Users As screen:
             LayoutMinHeight: =640
             LayoutMinWidth: =640
             nvCurrentMenuID: =2
+            nvIconHome: =Home
             nvMenu: =CustomNavigation
 

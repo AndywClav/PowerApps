@@ -604,6 +604,7 @@ NewPerson As screen:
         navbar_2 As Navbar:
             LayoutMinHeight: =640
             LayoutMinWidth: =640
+            nvIconHome: =Home
             nvMenu: =CustomNavigation
 
     NewPerson_Header As groupContainer.verticalAutoLayoutContainer:
