@@ -665,7 +665,7 @@ User As screen:
             Height: =33
             Icon: =Icon.Trash
             OnSelect: |
-                =//RemoveIf('Lista Andrés Clavijo', Perfil.Email = DataCardValue17.Selected.Email)
+                =RemoveIf('Lista Andrés Clavijo', Perfil.Email = DataCardValue17.Selected.Email)
             Width: =36
             X: =117
             Y: =8
