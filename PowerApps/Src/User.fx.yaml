@@ -630,7 +630,9 @@ User As screen:
             DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =33
             Icon: =Icon.Add
-            OnSelect: =Navigate(NewPerson, ScreenTransition.CoverRight)
+            OnSelect: |-
+                =NewForm(NewPerson_Insert);
+                Navigate(NewPerson, ScreenTransition.CoverRight)
             Width: =36
             X: =16
             Y: =8
