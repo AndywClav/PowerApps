@@ -78,6 +78,13 @@ Users As screen:
         NextArrow1 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
             Color: =App.Theme.Colors.Primary
+            DisplayMode: |-
+                =If(
+                    //User().Email = "aclavijo@artech-consulting.com" || 
+                    User().Email = "abenavides@artech-consulting.com",
+                    DisplayMode.Edit,
+                    DisplayMode.View
+                )   
             Height: =50
             Icon: =Icon.ChevronRight
             OnSelect: |
