@@ -16,6 +16,7 @@ User As screen:
     User_update As form:
         BorderColor: =App.Theme.Colors.Darker40
         DataSource: ='Lista Andrés Clavijo'
+        DefaultMode: =iconDisplayMode
         Fill: =RGBA(255, 255, 255, 1)
         Height: =440
         Item: =Users_Gallery.Selected
@@ -642,6 +643,12 @@ User As screen:
             DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =33
             Icon: =Icon.Edit
+            OnSelect: |
+                =If(
+                    iconDisplayMode = FormMode.View,
+                    Set(iconDisplayMode, FormMode.Edit),
+                    Set(iconDisplayMode, FormMode.View)
+                )
             Width: =36
             X: =66
             Y: =8
@@ -654,6 +661,9 @@ User As screen:
             DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =33
             Icon: =Icon.Trash
+            OnSelect: |
+                =//RemoveIf('Lista Andrés Clavijo', Perfil.Email = DataCardValue17.Selected.Email)
+                Notify("¿Estás seguro de que deseas eliminar este registro?", NotificationType.Information);
             Width: =36
             X: =117
             Y: =8

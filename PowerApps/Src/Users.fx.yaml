@@ -90,6 +90,7 @@ Users As screen:
             Icon: =Icon.ChevronRight
             OnSelect: |
                 =Select(Parent);
+                Set(iconDisplayMode, FormMode.View);
                 Navigate(User, ScreenTransition.CoverRight);
             PaddingBottom: =16
             PaddingLeft: =16
@@ -97,7 +98,7 @@ Users As screen:
             PaddingTop: =16
             Tooltip: ="View item details"
             Width: =50
-            X: =Parent.TemplateWidth - Self.Width - 12
+            X: =950
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =4
 
