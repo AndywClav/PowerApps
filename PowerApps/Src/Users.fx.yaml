@@ -84,7 +84,8 @@ Users As screen:
                     User().Email = "abenavides@artech-consulting.com",
                     DisplayMode.Edit,
                     DisplayMode.Disabled
-                )   
+                )  
+                // Si no eres administrador no vas a poder mirar mas informacion del usuario  
             Height: =50
             Icon: =Icon.ChevronRight
             OnSelect: |
