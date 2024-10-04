@@ -622,29 +622,40 @@ User As screen:
         Y: =48
         ZIndex: =5
 
-        Icon2 As Icon:
-            DisplayMode: =DisplayMode.Edit
-            Height: =32
-            Width: =32
-            X: =21
-            Y: =10
+        Icon3 As icon.Add:
+            BorderColor: =App.Theme.Colors.Primary
+            Color: =App.Theme.Colors.Primary
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Height: =33
+            Icon: =Icon.Add
+            OnSelect: =Navigate(NewPerson, ScreenTransition.CoverRight)
+            Width: =36
+            X: =16
+            Y: =8
             ZIndex: =1
 
-        Icon2_1 As Icon:
-            DisplayMode: =DisplayMode.Edit
-            Height: =32
-            Icon: ="Edit"
-            Width: =32
-            X: =72
-            Y: =10
+        Icon3_1 As icon.Add:
+            BorderColor: =App.Theme.Colors.Primary
+            Color: =App.Theme.Colors.Primary
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Height: =33
+            Icon: =Icon.Edit
+            Width: =36
+            X: =66
+            Y: =8
             ZIndex: =2
 
-        Icon2_2 As Icon:
-            DisplayMode: =DisplayMode.Edit
-            Height: =32
-            Icon: ="Delete"
-            Width: =32
-            X: =124
-            Y: =10
+        Icon3_2 As icon.Add:
+            BorderColor: =App.Theme.Colors.Primary
+            Color: =App.Theme.Colors.Primary
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Height: =33
+            Icon: =Icon.Trash
+            Width: =36
+            X: =117
+            Y: =8
             ZIndex: =3
 
