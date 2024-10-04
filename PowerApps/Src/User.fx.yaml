@@ -13,7 +13,7 @@ User As screen:
         Y: =36
         ZIndex: =1
 
-    Form2 As form:
+    User_update As form:
         BorderColor: =App.Theme.Colors.Darker40
         DataSource: ='Lista Andrés Clavijo'
         Fill: =RGBA(255, 255, 255, 1)
@@ -342,7 +342,7 @@ User As screen:
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayFields: =["DisplayName","Email","Picture"]
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.Disabled
                 Font: =App.Theme.Font
                 HoverColor: =RGBA(0, 0, 0, 1)
                 HoverFill: =App.Theme.Colors.Lighter70
@@ -419,7 +419,7 @@ User As screen:
                 Font: =App.Theme.Font
                 Height: =34
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="Ingreso al Trabajo"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -434,7 +434,7 @@ User As screen:
                 DisabledBorderColor: =RGBA(166, 166, 166, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.Disabled
                 EndYear: =Year(Today())+100
                 Font: =App.Theme.Font
                 HoverDateFill: =App.Theme.Colors.Lighter70
@@ -586,4 +586,26 @@ User As screen:
         X: =972
         Y: =193
         ZIndex: =3
+
+    Crear_1 As button:
+        BorderColor: =App.Theme.Colors.Primary
+        Color: =App.Theme.Colors.PrimaryForeground
+        DisabledBorderColor: =RGBA(244, 244, 244, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =App.Theme.Colors.Primary
+        Font: =App.Theme.Font
+        FontWeight: =FontWeight.Semibold
+        HoverBorderColor: =App.Theme.Colors.Darker10
+        HoverColor: =App.Theme.Colors.PrimaryForeground
+        HoverFill: =App.Theme.Colors.Darker10
+        OnSelect: =SubmitForm(User_update);
+        PressedBorderColor: =App.Theme.Colors.Darker40
+        PressedColor: =Self.Color
+        PressedFill: =App.Theme.Colors.Darker40
+        Size: =15
+        Text: ="Actualizar"
+        X: =616
+        Y: =599
+        ZIndex: =4
 
