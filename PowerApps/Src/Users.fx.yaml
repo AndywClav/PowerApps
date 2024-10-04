@@ -80,10 +80,10 @@ Users As screen:
             Color: =App.Theme.Colors.Primary
             DisplayMode: |-
                 =If(
-                    //User().Email = "aclavijo@artech-consulting.com" || 
+                    User().Email = "aclavijo@artech-consulting.com" || 
                     User().Email = "abenavides@artech-consulting.com",
                     DisplayMode.Edit,
-                    DisplayMode.View
+                    DisplayMode.Disabled
                 )   
             Height: =50
             Icon: =Icon.ChevronRight
