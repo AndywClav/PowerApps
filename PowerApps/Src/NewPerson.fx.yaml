@@ -607,6 +607,7 @@ NewPerson As screen:
                 // True
                 Notify("Formulario enviado con éxito", NotificationType.Success);
                 Refresh('Lista Andrés Clavijo');
+                NewForm(NewPerson_Insert);
                 Navigate(Users),
                 // False
                 Notify("Error al enviar el formulario", NotificationType.Error)
