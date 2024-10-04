@@ -134,6 +134,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Home.Home_Button.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.Home_Button.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Home",
+                "type": "Home.Home_Button"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "NewPerson.NewPerson_Insert.Nombre_DataCard1.DataCardValue1.AccessibleLabel"
                 }
               ],
@@ -224,36 +254,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "NewPerson.NewPerson_Insert.Perfil_DataCard2.DataCardValue7.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "NewPerson.NewPerson_Insert.Perfil_DataCard2.DataCardValue7.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "NewPerson",
-                "type": "NewPerson.NewPerson_Insert.Perfil_DataCard2.DataCardValue7"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "NewPerson.NewPerson_Insert.Ingreso_Al_Trabajo_DataCard1.DataCardValue5.AccessibleLabel"
                 }
               ],
@@ -297,6 +297,36 @@
                 "member": "AccessibleLabel",
                 "module": "NewPerson",
                 "type": "NewPerson.NewPerson_Insert.Linkedin_DataCard1.DataCardValue6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "NewPerson.NewPerson_Insert.Perfil_DataCard2.DataCardValue7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "NewPerson.NewPerson_Insert.Perfil_DataCard2.DataCardValue7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "NewPerson",
+                "type": "NewPerson.NewPerson_Insert.Perfil_DataCard2.DataCardValue7"
               }
             }
           ],
@@ -404,96 +434,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Home.Home_Button.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Home.Home_Button.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Home",
-                "type": "Home.Home_Button"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "User.Icon4.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "User.Icon4.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "User",
-                "type": "User.Icon4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "User.Icon4.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "User.Icon4.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "User",
-                "type": "User.Icon4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Users.TextInput1.AccessibleLabel"
                 }
               ],
@@ -584,19 +524,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "NewPerson.ButtonCanvas2.AccessibleLabel"
+                  "fullyQualifiedName": "User.Icon4.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "NewPerson.ButtonCanvas2.AccessibleLabel",
+                  "fullyQualifiedName": "User.Icon4.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "NewPerson",
-                "type": "NewPerson.ButtonCanvas2"
+                "module": "User",
+                "type": "User.Icon4"
               }
             }
           ],
@@ -608,6 +548,36 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "User.Icon4.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "User.Icon4.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "User",
+                "type": "User.Icon4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
         }
       ],
       "tool": {
