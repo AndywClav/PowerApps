@@ -1,7 +1,7 @@
 # PowerApps
 ## Descripción
 
-Este proyecto es una aplicación CRUD (Crear, Leer, Actualizar y Eliminar) diseñada para gestionar información de manera eficiente y segura. La aplicación garantiza que solo los usuarios autorizados puedan realizar operaciones de creación, actualización y eliminación, mientras que los demás usuarios tienen acceso exclusivo a la funcionalidad de lectura. Este desarrollo fue parte de una capacitación interna de [Artech](https://www.artech-consulting.com.ar/)
+Este proyecto es una aplicación CRUD (Crear, Leer, Actualizar y Eliminar) diseñada para gestionar información de manera eficiente y segura. La aplicación garantiza que solo los usuarios autorizados puedan realizar operaciones de creación, actualización y eliminación, mientras que los demás usuarios tienen acceso exclusivo a la funcionalidad de lectura.
 
 ## Funcionalidades
 
