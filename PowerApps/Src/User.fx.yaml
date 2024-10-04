@@ -663,7 +663,6 @@ User As screen:
             Icon: =Icon.Trash
             OnSelect: |
                 =//RemoveIf('Lista Andrés Clavijo', Perfil.Email = DataCardValue17.Selected.Email)
-                Notify("¿Estás seguro de que deseas eliminar este registro?", NotificationType.Information);
             Width: =36
             X: =117
             Y: =8
