@@ -96,7 +96,7 @@
                 "OptimizeForDevices": "Off",
                 "Parent": "Container9",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 106,
+                "PublishOrderIndex": 5,
                 "Rules": [
                   {
                     "Category": "Data",
@@ -447,7 +447,7 @@
                 "OptimizeForDevices": "Off",
                 "Parent": "Container9",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 107,
+                "PublishOrderIndex": 6,
                 "Rules": [
                   {
                     "Category": "Design",
@@ -690,7 +690,7 @@
                 "OptimizeForDevices": "Off",
                 "Parent": "Container9",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 108,
+                "PublishOrderIndex": 7,
                 "Rules": [
                   {
                     "Category": "Data",
@@ -1109,7 +1109,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container6",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 105,
+            "PublishOrderIndex": 3,
             "Rules": [
               {
                 "Category": "Design",
@@ -1419,7 +1419,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container6",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 109,
+            "PublishOrderIndex": 4,
             "Rules": [
               {
                 "Category": "Data",
@@ -1766,7 +1766,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Header",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 104,
+        "PublishOrderIndex": 2,
         "Rules": [
           {
             "Category": "Design",
@@ -1958,7 +1958,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638636487216152026",
+    "LastModifiedTimestamp": "638636553634412029",
     "Name": "Header",
     "Rules": [
       {
@@ -2017,7 +2017,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638636487216152026",
+  "LastModifiedTimestamp": "638636553634412029",
   "Name": "2554a52b66044696bc114d0c8815b9bd",
   "OverridableProperties": {},
   "Version": "1.0"

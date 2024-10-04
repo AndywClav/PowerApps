@@ -129,7 +129,7 @@
                 "OptimizeForDevices": "Off",
                 "Parent": "Container2",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 96,
+                "PublishOrderIndex": 12,
                 "Rules": [
                   {
                     "Category": "Data",
@@ -524,7 +524,7 @@
                 "OptimizeForDevices": "Off",
                 "Parent": "Container2",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 97,
+                "PublishOrderIndex": 13,
                 "Rules": [
                   {
                     "Category": "Data",
@@ -917,7 +917,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "navbar-Container",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 95,
+            "PublishOrderIndex": 10,
             "Rules": [
               {
                 "Category": "Design",
@@ -1097,7 +1097,7 @@
                 "OptimizeForDevices": "Off",
                 "Parent": "Gallery4",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 99,
+                "PublishOrderIndex": 14,
                 "Rules": [
                   {
                     "Category": "Design",
@@ -1233,7 +1233,7 @@
                         "OptimizeForDevices": "Off",
                         "Parent": "Container14",
                         "PersistMetaDataIDKey": false,
-                        "PublishOrderIndex": 102,
+                        "PublishOrderIndex": 17,
                         "Rules": [
                           {
                             "Category": "Data",
@@ -1558,7 +1558,7 @@
                         "OptimizeForDevices": "Off",
                         "Parent": "Container14",
                         "PersistMetaDataIDKey": false,
-                        "PublishOrderIndex": 103,
+                        "PublishOrderIndex": 18,
                         "Rules": [
                           {
                             "Category": "Data",
@@ -1924,7 +1924,7 @@
                     "OptimizeForDevices": "Off",
                     "Parent": "Container13",
                     "PersistMetaDataIDKey": false,
-                    "PublishOrderIndex": 101,
+                    "PublishOrderIndex": 16,
                     "Rules": [
                       {
                         "Category": "Design",
@@ -2197,7 +2197,7 @@
                 "OptimizeForDevices": "Off",
                 "Parent": "Gallery4",
                 "PersistMetaDataIDKey": false,
-                "PublishOrderIndex": 100,
+                "PublishOrderIndex": 15,
                 "Rules": [
                   {
                     "Category": "Design",
@@ -2502,7 +2502,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "navbar-Container",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 98,
+            "PublishOrderIndex": 11,
             "Rules": [
               {
                 "Category": "Data",
@@ -2817,7 +2817,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Navbar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 94,
+        "PublishOrderIndex": 9,
         "Rules": [
           {
             "Category": "Design",
@@ -3098,7 +3098,7 @@
       },
       "nvIconHome"
     ],
-    "LastModifiedTimestamp": "638636487216040945",
+    "LastModifiedTimestamp": "638636553634413285",
     "Name": "Navbar",
     "Rules": [
       {
@@ -3338,7 +3338,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638636487216040945",
+  "LastModifiedTimestamp": "638636553634413285",
   "Name": "87a76ae00310482bb4d7975c739ab8d3",
   "OverridableProperties": {},
   "TemplateOriginalName": "5584e065cbe44001a2eac557bd79d080",
