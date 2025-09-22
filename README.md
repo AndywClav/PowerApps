@@ -1,39 +1,40 @@
 # PowerApps
-## Descripción
 
-Este proyecto es una aplicación CRUD (Crear, Leer, Actualizar y Eliminar) diseñada para gestionar información de manera eficiente y segura. La aplicación garantiza que solo los usuarios autorizados puedan realizar operaciones de creación, actualización y eliminación, mientras que los demás usuarios tienen acceso exclusivo a la funcionalidad de lectura.
+## Description
 
-## Funcionalidades
+This project is a CRUD (Create, Read, Update, Delete) application designed to manage information efficiently and securely. The app ensures that only authorized users can perform create, update, and delete operations, while other users have read-only access.
 
-- **Crear:** Permite a los usuarios autorizados agregar nuevos registros a la base de datos.
-- **Leer:** Todos los usuarios pueden visualizar los registros existentes.
-- **Actualizar:** Los usuarios autorizados pueden modificar los registros existentes.
-- **Eliminar:** Los usuarios autorizados pueden eliminar registros.
+## Features
 
-## Validaciones
+- **Create:** Allows authorized users to add new records to the database.
+- **Read:** All users can view existing records.
+- **Update:** Authorized users can modify existing records.
+- **Delete:** Authorized users can delete records.
 
-La aplicación implementa validaciones para asegurar que solo los usuarios autorizados tengan acceso a las funciones de creación, actualización y eliminación, garantizando así la seguridad y la integridad de los datos.
+## Validations
 
-## Tecnologías Utilizadas
+The application includes validations to ensure that only authorized users have access to create, update, and delete functionalities, thereby maintaining data security and integrity.
 
-- **PowerApps:** Plataforma utilizada para el desarrollo de la aplicación.
-- **Power Automate:** Utilizado para automatizar flujos de trabajo y procesos.
-- **SharePoint:** Base de datos empleada para almacenar la información.
+## Technologies Used
 
-## Diseño
+- **PowerApps:** Platform used to develop the application.
+- **Power Automate:** Used to automate workflows and processes.
+- **SharePoint:** Database used to store the information.
 
-La interfaz de usuario presenta un enfoque moderno, asegurando una experiencia intuitiva y agradable. Se han incorporado elementos de diseño responsivo para garantizar una visualización adecuada en diferentes dispositivos.
+## Design
 
-### Páginas
+The user interface follows a modern approach, ensuring an intuitive and user-friendly experience. Responsive design elements have been incorporated to ensure proper display across different devices.
 
-- **Home**
+### Pages
+
+- **Home**  
   ![Home](Img/Home.png)
 
-- **Crear Usuario**
-  ![Crear Usuario](Img/CrearUsuario.png)
+- **Create User**  
+  ![Create User](Img/CrearUsuario.png)
 
-- **Usuarios**
-  ![Usuarios](Img/Usuarios.png)
+- **Users**  
+  ![Users](Img/Usuarios.png)
 
-- **Edición de Usuario**
-  ![Edición de Usuario](Img/EdicionUsuario.png)
+- **Edit User**  
+  ![Edit User](Img/EdicionUsuario.png)
